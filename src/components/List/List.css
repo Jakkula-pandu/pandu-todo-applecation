@@ -1,0 +1,36 @@
+
+.todolist-container{
+    width:50vw;
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    color:rgb(24, 3, 3);
+    font-family: "Roboto";
+    border-width: bold;
+    
+    background-color: rgb(180, 214, 224);
+    box-sizing:content-box;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-item{
+    font-size: 30px;
+}
+
+.delete-btn{
+    border-top-right-radius:5px ;
+    border-bottom-right-radius: 5px ;
+    margin-left:5px;
+    background-color: aquamarine;
+}
+
+.edit {
+    background-color: chocolate;
+}
+

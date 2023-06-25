@@ -1,0 +1,47 @@
+.section-center{
+  display:flex;
+  flex-direction:column;
+  justify-content: start;
+  align-items :center;
+  background-image: linear-gradient(to bottom, rgb(255, 0, 225), lightblue);
+  min-height: 100vh;
+  padding-left: 40px;
+  min-width:80vw;
+
+
+}
+
+.heading {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight:bold;
+}
+
+.clear-btn{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height:30px;
+  padding:opx;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: rgb(255, 105, 105);
+}
+
+
+.todoInput{
+  height:50px;
+  width:30vw;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.submit-btn{
+  height:50px;
+  margin-left:5px;
+  width:15vw;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  background-color:rgb(51, 0, 255);
+}
