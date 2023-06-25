@@ -1,7 +1,7 @@
 .section-center{
   display:flex;
   flex-direction:column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items :center;
   background-image: linear-gradient(to bottom, rgb(255, 0, 225), lightblue);
   min-height: 100vh;
