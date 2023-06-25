@@ -98,7 +98,7 @@ const App = () => {
 							value={todo}
 						/>
 						<button className="submit-btn">
-							{isEditing ? 'edit' : 'addtodo'}
+							{isEditing ? 'EDIT' : 'ADD TODO'}
 						</button>
            
 					</div>
